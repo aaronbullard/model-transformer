@@ -1,0 +1,17 @@
+{
+  "name": "transformer",
+  "version": "0.0.1",
+  "description": "JSON Object Transformer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "transformer"
+  ],
+  "author": "Aaron Bullard <jabullard@aol.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.3.2"
+  }
+}
