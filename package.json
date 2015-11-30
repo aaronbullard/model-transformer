@@ -1,8 +1,12 @@
 {
-  "name": "transformer",
+  "name": "model-transformer",
   "version": "0.0.1",
-  "description": "JSON Object Transformer",
-  "main": "index.js",
+  "description": "JSON Object Transformer for Node.js",
+  "main": "src/Transformer.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaronbullard/model-transformer.git"
+  },
   "scripts": {
     "test": "jasmine"
   },
