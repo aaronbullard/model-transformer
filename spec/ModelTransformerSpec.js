@@ -1,6 +1,6 @@
-var Transformer = require('../src/Transformer');
+var ModelTransformer = require('../src/ModelTransformer');
 
-describe("Transformer", function(){
+describe("ModelTransformer", function(){
 
   var model = {
     user: {
@@ -9,7 +9,7 @@ describe("Transformer", function(){
     }
   };
 
-  var transformer = new Transformer(function(model){
+  var transformer = new ModelTransformer(function(model){
     return {
       first: model.user.first,
       last: model.user.last

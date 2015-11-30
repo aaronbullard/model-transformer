@@ -1,4 +1,4 @@
-function Transformer(mapping){
+function ModelTransformer(mapping){
 
   if(typeof mapping !== 'function'){
     throw new TypeError("Class must be constructed with a closure.");
@@ -23,4 +23,4 @@ function Transformer(mapping){
   };
 }
 
-module.exports = Transformer;
+module.exports = ModelTransformer;
