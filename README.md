@@ -3,7 +3,7 @@ JSON Object Transformer for Node.js
 
 ## Example
 ```
-var ModelTransformer = require('ModelTransformer');
+var ModelTransformer = require('model-transformer');
 
 var personTransformer = new ModelTransformer(function(person){
   return {
